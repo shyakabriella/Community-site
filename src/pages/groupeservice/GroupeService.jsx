@@ -3,34 +3,34 @@ import React, { useEffect, useState } from "react";
 const cateringCards = [
   {
     title: "MADE-TO-ORDER MENUS",
-    image: "/home1.jpg",
+    image: "./images/desert6.png",
     description:
       "From delicious appetizers and garden-fresh salads to gourmet entrées your guests will adore, our culinary team offers full buffets and plated dinner service. Craft a personalized wedding menu tailored to your tastes by selecting from our diverse array of culinary options.",
   },
   {
     title: "BUFFET AND PLATED DINNER TASTINGS",
-    image: "/home2.jpg",
+    image: "./images/desert2.jpg",
     description:
-      "Complimentary food tastings of dinner selections are available exclusively for couples who have booked their wedding at Wonder Valley Ranch Resort. After booking, you'll be invited to the tasting closest to your event date so you can discover your favorite tastes from our wedding catering menus.",
+      "Complimentary food tastings of dinner selections are available exclusively for couples who have booked their wedding at Luxury Garden Palace  Resort. After booking, you'll be invited to the tasting closest to your event date so you can discover your favorite tastes from our wedding catering menus.",
   },
 ];
 
 const culinaryEnhancements = [
   {
     title: "REHEARSAL DINNERS",
-    image: "/home1.jpg",
+    image: "/images/cuisine.png",
     description:
       "Elevate your wedding experience with an unforgettable pre-celebration, offering delectable cuisine just steps away from your ceremony site. We invite you to complete your wedding weekend with friends and family when you reserve your rehearsal dinner with us.",
   },
   {
     title: "SWEET TREATS",
-    image: "/home2.jpg",
+    image: "/images/cookies.JPG",
     description:
       "Indulge in a delectable array of confections from our Sweet Treats Menu. Make your wedding day undeniably sweet by adding an assortment of freshly baked cookies, delicate parfaits, gourmet cupcakes, and other delicious desserts.",
   },
   {
     title: "LATE-NIGHT BITES",
-    image: "/home3.jpg",
+    image: "./images/luxuryfooddecoration7.JPG",
     description:
       "Treat your guests to some extra flavor and complete the wedding night with a satisfying snack. Extend the joy of your celebration with our Late-Night Bites menu, featuring a savory array of food options that can be added after your main course.",
   },
@@ -201,7 +201,7 @@ export default function GroupeService() {
       {/* HERO */}
       <section className="relative min-h-[68vh] overflow-hidden">
         <img
-          src="/home4.jpg"
+          src="images/weddinghall3.jpg"
           alt="Wedding Services"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -237,7 +237,7 @@ export default function GroupeService() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-[840px] text-[17px] leading-[1.9] text-[#222] sm:text-[18px] md:text-[19px]">
-            Weddings at Wonder Valley Ranch Resort are fully immersive. Our
+            Weddings at Luxury Garden Palace  are fully immersive. Our
             grounds are designed to be enjoyed by you, your wedding party, and
             your guests, making for an intimate experience that speaks to your
             unique story. Customize, personalize, and modify—this is your
@@ -251,7 +251,7 @@ export default function GroupeService() {
         <div className="mx-auto grid max-w-[1320px] grid-cols-1 items-center gap-10 px-5 sm:px-6 md:px-8 lg:grid-cols-[0.95fr_1fr] lg:gap-16 lg:px-10">
           <div className="overflow-hidden">
             <img
-              src="/home1.jpg"
+              src="/images/garden5.png"
               alt="Weekend activities"
               className="h-[360px] w-full object-cover sm:h-[460px] md:h-[560px] lg:h-[640px]"
             />
@@ -268,7 +268,7 @@ export default function GroupeService() {
             </h2>
 
             <p className="mt-6 text-[17px] leading-[1.9] text-[#202020] sm:text-[18px] md:text-[19px]">
-              With a number of outdoor activities available at Wonder Valley
+              With a number of outdoor activities available at Luxury Garden Palace
               —horseback riding, canoeing, and tennis, just to name a few—
               it’s all too easy to provide your guests with some extra fun
               while they’re here for your Fresno-area wedding.
@@ -422,7 +422,7 @@ export default function GroupeService() {
                 className="text-[48px] font-normal leading-[1] text-[#183247] sm:text-[62px] md:text-[76px]"
                 style={{ fontFamily: '"Cormorant Garamond", Georgia, serif' }}
               >
-                Wonder Valley
+                Luxury Garden Palace
               </h2>
               <span className="hidden h-px w-[180px] bg-[#b89a6b] md:block" />
             </div>
