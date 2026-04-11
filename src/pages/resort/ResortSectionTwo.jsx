@@ -42,7 +42,7 @@ export default function ResortSectionTwo() {
           >
             <div className="w-full">
               <img
-                src="/home2.jpg"
+                src="/images/tent4.png"
                 alt="Bride holding bouquet"
                 className="h-[420px] w-full object-cover sm:h-[520px] md:h-[620px] lg:h-[710px] xl:h-[720px]"
               />
@@ -79,10 +79,10 @@ export default function ResortSectionTwo() {
                 className="mt-6 max-w-[560px] text-[15px] leading-[1.85] text-[#24343a] sm:text-[16px] md:text-[17px]"
                 style={{ fontFamily: "Montserrat, sans-serif" }}
               >
-                Wonder Valley Ranch Resort is a frontrunner in wedding venues
-                near Fresno, CA, providing a scenic destination that you and
+                Luxury Garden Palace is a frontrunner in wedding venues
+                providing a scenic destination that you and
                 your guests will never forget. With gorgeous 360-degree views
-                from our lakeside venue paired with our elevated standard of
+                from our beautiful venue paired with our elevated standard of
                 service, every detail will be just as you&apos;ve always
                 imagined.
               </p>
@@ -104,7 +104,7 @@ export default function ResortSectionTwo() {
             >
               <div className="w-full lg:max-w-[620px]">
                 <img
-                  src="/home3.jpg"
+                  src="images/weddinghall1.png"
                   alt="Couple enjoying wedding moment"
                   className="h-[260px] w-full object-cover sm:h-[320px] md:h-[360px] lg:h-[335px] xl:h-[350px]"
                 />

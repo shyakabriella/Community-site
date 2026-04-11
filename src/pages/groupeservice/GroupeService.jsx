@@ -201,7 +201,7 @@ export default function GroupeService() {
       {/* HERO */}
       <section className="relative min-h-[68vh] overflow-hidden">
         <img
-          src="images/weddinghall3.jpg"
+          src="images/breathtaking.png"
           alt="Wedding Services"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -251,7 +251,7 @@ export default function GroupeService() {
         <div className="mx-auto grid max-w-[1320px] grid-cols-1 items-center gap-10 px-5 sm:px-6 md:px-8 lg:grid-cols-[0.95fr_1fr] lg:gap-16 lg:px-10">
           <div className="overflow-hidden">
             <img
-              src="/images/garden5.png"
+              src="images/weddgarden1.jpg"
               alt="Weekend activities"
               className="h-[360px] w-full object-cover sm:h-[460px] md:h-[560px] lg:h-[640px]"
             />

@@ -1,24 +1,51 @@
 import React, { useEffect, useState } from "react";
 
 const galleryImages = [
-  { src: "/home1.jpg", alt: "Wonder Valley entrance" },
-  { src: "/home2.jpg", alt: "Elegant indoor event venue" },
-  { src: "/home3.jpg", alt: "Horse carriage experience" },
-  { src: "/home4.jpg", alt: "Business meeting session" },
+  { src: "/images/weddinghall1.png", alt: "Elegant wedding hall setup" },
+  { src: "/images/weddinghall2.jpg", alt: "Beautiful wedding venue interior" },
+  { src: "/images/weddinghall3.jpg", alt: "Luxurious wedding reception area" },
+  { src: "/images/weddinghall4.jpg", alt: "Grand wedding ceremony space" },
 
-  { src: "/home2.jpg", alt: "Guests enjoying food together" },
-  { src: "/home3.jpg", alt: "Outdoor adventure activity" },
-  { src: "/home4.jpg", alt: "Chef plating gourmet food" },
-  { src: "/home1.jpg", alt: "Guests celebrating with wine" },
+  { src: "/images/luxuryfooddecoration1.JPG", alt: "Luxury food and beverages" },
+  { src: "/images/luxuryfooddecoration2.JPG", alt: "Luxury food and beverages" },
+  { src: "/images/luxuryfooddecoration3.JPG", alt: "Luxury food and beverages" },
+  { src: "/images/luxuryfooddecoration7.JPG", alt: "Luxury food and beverages" },
+  { src: "/images/luxuryfooddecoration5.JPG", alt: "Luxury food and beverages" },
+  { src: "/images/food.png", alt: "Elegant bridal suite" },
+  { src: "/images/drink.png", alt: "Elegant bridal suite" },
 
-  { src: "/home3.jpg", alt: "Horseback trail activity" },
-  { src: "/home4.jpg", alt: "Cocktail service moment" },
-  { src: "/home1.jpg", alt: "Conference room gathering" },
-  { src: "/home2.jpg", alt: "Group walking outdoors" },
+  { src: "/images/garden1.png", alt: "Romantic wedding decorations" },
+  { src: "/images/garden2.png", alt: "Sophisticated table settings" },
+  { src: "/images/garden3.png", alt: "Wedding venue lighting design" },
+  { src: "/images/garden4.png", alt: "Elegant bridal suite" },
+  { src: "/images/garden5.png", alt: "Elegant bridal suite" },
 
-  { src: "/home4.jpg", alt: "Presentation session" },
-  { src: "/home1.jpg", alt: "Campfire and wine gathering" },
-  { src: "/home2.jpg", alt: "Relaxed guest experience" },
+  { src: "/images/weddinghall9.jpg", alt: "Outdoor wedding garden" },
+  { src: "/images/weddinghall10.jpg", alt: "Wedding reception dining area" },
+  { src: "/images/weddinghall11.jpg", alt: "Wedding venue entrance" },
+  { src: "/images/bed1.JPG", alt: "Luxury guest bedroom" },
+
+  { src: "/images/bed2.JPG", alt: "Premium accommodation suite" },
+  { src: "/images/bed3.JPG", alt: "Elegant bedroom interior" },
+  { src: "/images/penthouse1.JPG", alt: "Penthouse suite overview" },
+  { src: "/images/penthouse2.JPG", alt: "Penthouse living area" },
+
+  { src: "/images/penthouse3.JPG", alt: "Penthouse bedroom view" },
+  { src: "/images/penthouse4.JPG", alt: "Luxury penthouse amenities" },
+  { src: "/images/penthouse5.JPG", alt: "Penthouse terrace access" },
+  { src: "/images/penthouse6.JPG", alt: "Penthouse bathroom suite" },
+
+  { src: "/images/kitchen1.JPG", alt: "Elegant kitchen interior" },
+  { src: "/images/kitchen2.JPG", alt: "Modern kitchen appliances" },
+  { src: "/images/kitchen3.JPG", alt: "Kitchen island and seating" },
+
+  { src: "/images/parking1.JPG", alt: "Elegant parking facility" },
+  { src: "/images/parking2.JPG", alt: "Premium parking facility" },
+  
+  { src: "/images/tent1.JPG", alt: "Elegant wedding tent" },
+  { src: "/images/tent2.JPG", alt: "Elegant wedding tent" },
+  { src: "/images/tent3.JPG", alt: "Elegant wedding tent" },
+
 ];
 
 export default function Garelly() {
@@ -68,7 +95,7 @@ export default function Garelly() {
       {/* HERO */}
       <section className="relative min-h-[62vh] overflow-hidden">
         <img
-          src="/home4.jpg"
+          src="/images/weddinghall1.png"
           alt="Gallery hero"
           className="absolute inset-0 h-full w-full object-cover"
         />

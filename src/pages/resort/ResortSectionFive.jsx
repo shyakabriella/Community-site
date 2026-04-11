@@ -36,7 +36,7 @@ export default function ResortSectionFive() {
       {/* Faded background image on left */}
       <div className="pointer-events-none absolute inset-y-0 left-0 w-full lg:w-[62%] overflow-hidden">
         <img
-          src="/home1.jpg"
+          src="/images/bed8.JPG"
           alt="Accommodations background"
           className="h-full w-full object-cover opacity-[0.13] grayscale"
         />
@@ -82,7 +82,7 @@ export default function ResortSectionFive() {
           >
             <div className="mx-auto w-full max-w-[900px] overflow-hidden shadow-[0_10px_40px_rgba(0,0,0,0.08)]">
               <img
-                src="/home4.jpg"
+                src="images/5K8A0795.jpg"
                 alt="Cozy lodging room"
                 className="h-[280px] w-full object-cover sm:h-[360px] md:h-[460px] lg:h-[540px] xl:h-[600px]"
               />

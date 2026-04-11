@@ -49,12 +49,12 @@ const drinkPackageInfo = [
 const drinkCards = [
   {
     title: "SIMPLE",
-    image: "/home1.jpg",
+    image: "/images/bar2.jpg",
     items: ["Beer", "Wine", "Mocktails", "Sodas, Juice"],
   },
   {
     title: "TOP SHELF",
-    image: "/home2.jpg",
+    image: "/images/bar2.png",
     items: [
       "Beer",
       "Wine",
@@ -65,7 +65,7 @@ const drinkCards = [
   },
   {
     title: "HOUSE",
-    image: "/home3.jpg",
+    image: "/images/drink.png",
     items: [
       "Beer",
       "Wine",
@@ -76,7 +76,7 @@ const drinkCards = [
   },
   {
     title: "CALL",
-    image: "/home4.jpg",
+    image: "/images/bar1.jpg",
     items: [
       "Beer",
       "Wine",
@@ -187,7 +187,7 @@ export default function Package() {
       {/* HERO */}
       <section className="relative min-h-[68vh] overflow-hidden">
         <img
-          src="/home4.jpg"
+          src="/images/package.jpg"
           alt="Wedding packages hero"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -210,7 +210,7 @@ export default function Package() {
       <section className="bg-[#f3f2ed] py-16 sm:py-20 md:py-24 lg:py-28">
         <div className="mx-auto max-w-[980px] px-5 text-center sm:px-6 md:px-8">
           <p className="text-[17px] tracking-[0.04em] text-[#a37f58] sm:text-[19px]">
-            Wedding Packages in Fresno, CA
+            Wedding Packages in Luxury Garden Palace
           </p>
 
           <h2
@@ -234,7 +234,7 @@ export default function Package() {
       <PackageSplitSection
         title="The Classic Package"
         items={classicPackage}
-        image="/home1.jpg"
+        image="/images/desert2.jpg"
         topBorder
       />
 
@@ -242,7 +242,7 @@ export default function Package() {
       <PackageSplitSection
         title="The Premium Package"
         items={premiumPackage}
-        image="/home2.jpg"
+        image="/images/desert4.jpg"
         reverse
       />
 
@@ -285,7 +285,7 @@ export default function Package() {
       {/* DRINK PACKAGES HERO SECTION */}
       <section className="relative overflow-hidden py-16 sm:py-20 md:py-24 lg:py-28">
         <img
-          src="/home3.jpg"
+          src="/images/drink.png"
           alt="Drink packages"
           className="absolute inset-0 h-full w-full object-cover"
         />

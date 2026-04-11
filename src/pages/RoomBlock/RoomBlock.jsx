@@ -1,21 +1,24 @@
 import React, { useEffect, useState } from "react";
 
 const guestRoomImages = [
-  "/home1.jpg",
-  "/home2.jpg",
-  "/home3.jpg",
+  "images/lounge2.png",
+  "images/lounge1.png",
+  "images/lounge2.png",
 ];
 
 const cottageImages = [
-  "/home2.jpg",
-  "/home3.jpg",
-  "/home4.jpg",
+  "images/cottage1.jpg",
+  "images/cottage3.jpg",
+  "images/cottage2.jpg",
+  
+
 ];
 
 const houseImages = [
-  "/home3.jpg",
-  "/home4.jpg",
-  "/home1.jpg",
+  "images/kitchen4.JPG",
+  "images/lux dinning1.jpg",
+  "images/penthouse4.JPG",
+  "images/bed6.JPG",
 ];
 
 const restfulEssentials = [
@@ -148,7 +151,7 @@ export default function RoomBlock() {
       {/* HERO */}
       <section className="relative min-h-[72vh] overflow-hidden">
         <img
-          src="/home4.jpg"
+          src="images/bed9.JPG"
           alt="Room blocks hero"
           className="absolute inset-0 h-full w-full object-cover"
         />

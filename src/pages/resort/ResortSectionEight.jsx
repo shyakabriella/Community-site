@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const galleryImages = [
-  { image: "/home1.jpg", alt: "Meeting session at the resort" },
-  { image: "/home2.jpg", alt: "Wonder Valley entrance view" },
-  { image: "/home3.jpg", alt: "Resort dining experience" },
-  { image: "/home4.jpg", alt: "Horse carriage activity at the resort" },
+  { image: "images/venues.png", alt: "Meeting session at the resort" },
+  { image: "images/5K8A0704.jpg", alt: "Wonder Valley entrance view" },
+  { image: "/images/tent4.png", alt: "Resort dining experience" },
+  { image: "/images/wedding2.png", alt: "Horse carriage activity at the resort" },
 ];
 
 export default function ResortSectionEight() {

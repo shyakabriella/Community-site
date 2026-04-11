@@ -36,8 +36,8 @@ export default function ResortSectionFour() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/home4.jpg"
-          alt="Wonder Valley background"
+          src="images/breathtaking.png"
+          alt="luxury background"
           className="h-full w-full object-cover grayscale"
         />
         <div className="absolute inset-0 bg-[rgba(18,22,24,0.68)]" />
@@ -57,7 +57,7 @@ export default function ResortSectionFour() {
               }`}
             >
               <img
-                src="/home1.jpg"
+                src="/images/exterior1.JPG"
                 alt="Aerial view of Wonder Valley"
                 className="h-[240px] w-full object-cover sm:h-[300px] md:h-[360px] lg:h-[420px] xl:h-[460px]"
               />
@@ -72,7 +72,7 @@ export default function ResortSectionFour() {
               }`}
             >
               <img
-                src="/home2.jpg"
+                src="images/exterior2.JPG"
                 alt="Lake and mountain view"
                 className="h-[170px] w-full object-cover"
               />
@@ -85,8 +85,8 @@ export default function ResortSectionFour() {
               }`}
             >
               <img
-                src="/home2.jpg"
-                alt="Wonder Valley scenic setting"
+                src="images/5K8A0644.jpg"
+                alt="Luxury Garden Palace scenic setting"
                 className="h-[180px] w-full object-cover lg:h-[220px] xl:h-[250px] 2xl:h-[280px]"
               />
             </div>
@@ -115,8 +115,7 @@ export default function ResortSectionFour() {
               </h2>
 
               <p className="mt-5 text-[15px] leading-[1.8] text-white/82 sm:text-[16px] md:text-[17px] lg:text-[18px]">
-                Wonder Valley Ranch Resort is located up in the Sierra Nevada
-                foothills, just outside the city of Fresno. This setting
+                Luxury Garden Palace is located up in rwanda
                 provides all types of groups with a uniquely secluded event
                 locale, made even better by wide-ranging facilities and
                 immersive team experiences.

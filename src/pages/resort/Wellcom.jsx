@@ -2,22 +2,22 @@ import React, { useEffect, useState } from "react";
 
 const slides = [
   {
-    image: "/home1.jpg",
+    image: "/images/people2.jpg",
     eyebrow: "Groups & Meetings",
     title: ["Disconnect And", "Reconnect In", "Fresno"],
   },
   {
-    image: "/home2.jpg",
+    image: "images/tent4.png",
     eyebrow: "Weddings & Events",
     title: ["Celebrate Big", "Moments With", "Us"],
   },
   {
-    image: "/home3.jpg",
+    image: "images/gathering2.jpg",
     eyebrow: "Retreats & Gatherings",
     title: ["Reconnect In", "Nature And", "Comfort"],
   },
   {
-    image: "/home4.jpg",
+    image: "images/wedding1.png",
     eyebrow: "Luxury Experiences",
     title: ["Plan Your", "Next Memorable", "Escape"],
   },

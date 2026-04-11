@@ -3,27 +3,27 @@ import React, { useEffect, useRef, useState } from "react";
 const slides = [
   {
     id: "01",
-    eyebrow: "Why Choose Wonder Valley?",
+    eyebrow: "Why Choose Luxury Garden Palace?",
     title: "Easy to Plan",
     description:
       "Our seamless event planning experience includes versatile venue options, on-site catering, bar service, conference suites, and overnight accommodations—all in one place, expertly managed by our team.",
-    image: "/home3.jpg",
+    image: "images/exterior2.JPG",
   },
   {
     id: "02",
-    eyebrow: "Why Choose Wonder Valley?",
+    eyebrow: "Why Choose Luxury Garden Palace?",
     title: "Easy to Enjoy",
     description:
       "From group retreats and business meetings to unforgettable celebrations, our resort offers flexible spaces, beautiful surroundings, and a warm atmosphere your guests will truly enjoy.",
-    image: "/home2.jpg",
+    image: "images/garden1.png",
   },
   {
     id: "03",
-    eyebrow: "Why Choose Wonder Valley?",
+    eyebrow: "Why Choose Luxury Garden Palace?",
     title: "Easy to Remember",
     description:
       "Create meaningful experiences with elegant venues, comfortable accommodations, and outdoor moments that leave a lasting impression on every member of your group.",
-    image: "/home4.jpg",
+    image: "images/garden5.png",
   },
 ];
 
@@ -74,7 +74,7 @@ export default function ResortSectionThree() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/home1.jpg"
+          src="images/breathtaking.png"
           alt="Resort background"
           className="h-full w-full object-cover"
         />

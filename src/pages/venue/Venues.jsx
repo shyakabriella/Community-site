@@ -2,23 +2,23 @@ import React, { useEffect } from "react";
 
 const venues = [
   {
-    title: "Lakeview Garden",
+    title: "Green Garden",
     size: "5,005 SQ. FT. | UP TO 350 GUESTS",
-    image: "/home1.jpg",
+    image: "/images/garden5.png",
     description:
-      "Set against a verdant backdrop with stunning views of a tranquil lake in the foothills of the Sierra Nevada Mountains, the Lakeview Garden is an expansive outdoor venue that exudes storybook charm. The natural beauty creates a serene and romantic setting, perfect for exchanging vows under the sky.",
+      "Set against a verdant backdrop with stunning views of a tranquil  in the foothills of the Garden is an expansive outdoor venue that exudes storybook charm. The natural beauty creates a serene and romantic setting, perfect for exchanging vows under the sky.",
   },
   {
     title: "Legacy Lodge Patio",
     size: "1,400 SQ. FT. | UP TO 100 GUESTS",
-    image: "/home2.jpg",
+    image: "/images/exclusivelounge2.jpg",
     description:
       "After gathering to witness your ceremony, guests are invited to enjoy a sophisticated reception on the Legacy Lodge Patio. An ideal setting for mixing and mingling before the official festivities, every detail here is framed by serene lake and lush landscapes.",
   },
   {
     title: "Legacy Lodge",
     size: "3,901 SQ. FT. | UP TO 350 GUESTS",
-    image: "/home3.jpg",
+    image: "/images/bed4.JPG",
     description:
       "For the reception, the spacious Legacy Lodge transforms into a dreamy venue, blending rustic charm with elegant touches. This enchanting space combines breathtaking views with refined design, setting the stage for unforgettable celebrations.",
   },
@@ -35,7 +35,7 @@ export default function Venues() {
       {/* HERO */}
       <section className="relative h-[65vh] overflow-hidden">
         <img
-          src="/home4.jpg"
+          src="/images/venues.png"
           alt="venues hero"
           className="absolute inset-0 w-full h-full object-cover"
         />
